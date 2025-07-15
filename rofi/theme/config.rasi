@@ -1,1 +1,114 @@
+/* ROFI SQUARED THEME USING CUSTOM PALLETE*/
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+
+configuration {
+    display-drun:                " ";
+    icon-theme:                  "Tela-circle-dracula";
+    show-icons:                  true;
+}
+
+* {
+    font:   "JetBrainsMono Nerd Font 10";
+
+    bg0:     #0E3747;
+    bg1:     #0E4D5F;
+    fg0:     #D8DEE9;
+    fg1:     #9DA2C2;
+
+    accent-color:     #C69087;
+    urgent-color:     #B59BB5;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    location:   center;
+    width:      480;
+
+    background-color:   @bg0;
+}
+
+inputbar {
+    spacing:    8px;
+    padding:    8px;
+
+    background-color:   @bg1;
+}
+
+prompt, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: @accent-color;
+}
+
+textbox {
+    padding:            8px;
+    background-color:   @bg1;
+}
+
+listview {
+    padding:    4px 0;
+    lines:      8;
+    columns:    1;
+
+    fixed-height:   false;
+}
+
+element {
+    padding:    8px;
+    spacing:    8px;
+
+}
+
+element normal normal {
+    text-color: @fg0;
+    background-color: @bg1; /*sadasdasdasdas*/
+}
+
+element alternate normal {
+    text-color: @fg0;
+    background-color: @bg1; /*sadasdasdasdas*/
+}
+
+element normal urgent {
+    text-color: @urgent-color;
+}
+
+element normal active {
+    text-color: @accent-color;
+}
+
+element alternate active {
+    text-color: @accent-color;
+}
+
+element selected {
+    text-color: @bg0;
+}
+
+element selected normal, element selected active {
+    background-color:   @accent-color;
+
+}
+
+element selected urgent {
+    background-color:   @urgent-color;
+
+}
+
+element-icon {
+    size:   1em;
+}
+
+element-text {
+    text-color: inherit;
+}
 
