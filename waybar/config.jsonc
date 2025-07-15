@@ -186,7 +186,7 @@
         "format": "{}°",
         "tooltip": true,
         "interval": 1800,
-        "exec": "wttrbar --location Khimki --nerd",
+        "exec": "wttrbar --nerd",
         "return-type": "json"
     },
 
