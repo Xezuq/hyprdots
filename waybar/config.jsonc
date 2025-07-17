@@ -23,7 +23,7 @@
 	],
 
 	"modules-right":[
-		"custom/cava", "group/system-levels", "custom/l_end", "clock", "custom/r_end",
+		"group/system-levels", "custom/l_end", "clock", "custom/r_end",
 		"group/control-panel", "custom/padd"
 	],
 
@@ -186,7 +186,7 @@
         "format": "{}°",
         "tooltip": true,
         "interval": 1800,
-        "exec": "wttrbar --nerd",
+        "exec": "wttrbar --location Khimki --nerd",
         "return-type": "json"
     },
 
